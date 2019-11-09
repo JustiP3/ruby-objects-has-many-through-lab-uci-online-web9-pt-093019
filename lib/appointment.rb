@@ -1,6 +1,6 @@
 class Appointment
-attr_accessor :doctor, :patient 
+attr_accessor :doctor, :patient
 
 
 
-end #end of class 
+end #end of class
