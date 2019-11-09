@@ -16,7 +16,7 @@ end
 ##Instance Methods##
 
 def appointments
-
+ Appointment.all.select {|appt| appt.doctor == self}
 end
 
 
