@@ -1,8 +1,8 @@
-class Doctor 
-attr_accessor :name 
+class Doctor
+attr_accessor :name
 
 def initialize(name)
-  @name = name 
-end 
+  @name = name
+end
 
 end #end of class 
