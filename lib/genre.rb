@@ -21,6 +21,6 @@ end
 
 def artists
   songs.map {|song| song.artist}
-end 
+end
 
 end #end of class
