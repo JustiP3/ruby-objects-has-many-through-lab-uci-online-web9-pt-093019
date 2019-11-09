@@ -6,6 +6,7 @@ def initialize(title, artist, genre)
   @title = title
   @artist = artist
   @genre = genre
+  @@all << self
 end
 
 ##Class Methods##
