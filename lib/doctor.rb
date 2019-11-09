@@ -17,7 +17,7 @@ end
 ##Instance Methods##
 
 def appointments
-#  binding.pry
+
  Appointment.all.select {|appt| appt.doctor == self}
 end
 
@@ -26,6 +26,7 @@ def new_appointment(date, patient)
 end
 
 def patients
+    binding.pry
   appointments.map {|appt| appt.patient}
 end
 
