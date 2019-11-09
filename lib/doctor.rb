@@ -15,9 +15,9 @@ end
 
 ##Instance Methods##
 
-def appointments 
+def appointments
 
-end 
+end
 
 
 end #end of class
