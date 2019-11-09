@@ -7,7 +7,8 @@ def initialize(name)
 end
 
 def new_appointment(doctor, date)
-  appointments << Appointment.new(date, self, doctor)
+  new_appt = Appointment.new(date, self, doctor)
+  appointments << new_appt 
 end
 
 end #end of class
