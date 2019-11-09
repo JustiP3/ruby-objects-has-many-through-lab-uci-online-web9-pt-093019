@@ -15,8 +15,8 @@ end
 
 ##Instance Methods##
 
-def songs 
-  
-end 
+def songs
+
+end
 
 end #end of class
