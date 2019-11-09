@@ -1,9 +1,9 @@
 class Genre
-attr_accessor :name 
+attr_accessor :name
 
 def initialize(name)
-  @name = name 
-end 
+  @name = name
+end
 
 
-end #end of class 
+end #end of class
