@@ -17,7 +17,7 @@ end
 ##Instance Methods##
 
 def appointments
-  binding.pry 
+  binding.pry
  Appointment.all.select {|appt| appt.doctor == self}
 end
 
