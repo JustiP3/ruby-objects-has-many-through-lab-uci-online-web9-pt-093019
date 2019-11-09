@@ -9,4 +9,12 @@ def initialize(time, doctor, patient)
   @@all << self
 end
 
+##Class Methods##
+
+def self.all 
+  @@all 
+end 
+
+##Instance Methods##
+
 end #end of class
