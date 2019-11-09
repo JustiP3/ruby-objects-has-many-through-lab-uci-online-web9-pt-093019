@@ -8,9 +8,9 @@ end
 
 ##Class Methods##
 
-def self.all  
-  @@all 
-end 
+def self.all
+  @@all
+end
 
 ##Instance Methods##
 
