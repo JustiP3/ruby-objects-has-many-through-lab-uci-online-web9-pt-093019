@@ -8,6 +8,7 @@ def initialize(name)
 end
 
 ##Class Methods##
+
 def self.all
   @@all
 end
