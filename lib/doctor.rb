@@ -14,4 +14,10 @@ def self.all
 end
 
 ##Instance Methods##
+
+def appointments 
+
+end 
+
+
 end #end of class
