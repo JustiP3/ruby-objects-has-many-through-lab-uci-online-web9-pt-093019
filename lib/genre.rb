@@ -6,6 +6,14 @@ def initialize(name)
   @name = name
 end
 
+##Class Methods##
+
+def self.all  
+  @@all 
+end 
+
+##Instance Methods##
+
 def songs
 Song.all.select {|song| song.genre == self}
 end
