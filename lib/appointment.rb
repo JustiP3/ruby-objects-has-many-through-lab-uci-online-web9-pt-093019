@@ -7,6 +7,8 @@ def initialize(time, patient, doctor)
   @doctor = doctor
   @patient = patient
   @@all << self
+  patient.appointments << self
+  doctor.appointments << self
 end
 
 ##Class Methods##
