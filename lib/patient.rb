@@ -6,7 +6,7 @@ def initialize(name)
   @appointments = []
 end
 
-def new_appointment(doctor, date)  
+def new_appointment(doctor, date)
   appointments << Appointment.new(date, self, doctor)
 end
 
