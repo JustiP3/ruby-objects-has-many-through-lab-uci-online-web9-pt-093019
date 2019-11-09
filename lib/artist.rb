@@ -13,4 +13,6 @@ def all
 end
 
 ##Instance Methods##
+
+
 end #end of class
