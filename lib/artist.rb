@@ -24,7 +24,7 @@ Song.new(title, self, genre)
 end
 
 def genres
-songs.select {|song| song.genre}
+songs.detect {|song| song.genre}
 end
 
 end #end of class
