@@ -20,7 +20,7 @@ def songs
 end
 
 def artists
-  songs.detect {|song| song.artist}
+  songs.map {|song| song.artist}
 end 
 
 end #end of class
