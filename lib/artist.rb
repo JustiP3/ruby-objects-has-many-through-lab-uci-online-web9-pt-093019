@@ -9,7 +9,7 @@ end
 
 ##Class Methods ##
 
-def all
+def self.all
   @@all
 end
 
