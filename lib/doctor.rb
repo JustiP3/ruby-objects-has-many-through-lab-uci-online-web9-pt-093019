@@ -26,7 +26,7 @@ def new_appointment(patient, date)
 end
 
 def patients
-    binding.pry
+#    binding.pry
   appointments.map {|appt| appt.patient}
 end
 
