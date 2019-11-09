@@ -23,4 +23,8 @@ def new_song(title, genre)
 Song.new(title, self, genre)
 end
 
+def genres
+songs.detect {|song| song.genre}
+end
+
 end #end of class
