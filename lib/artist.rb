@@ -20,11 +20,11 @@ def songs
 end
 
 def new_song(title, genre)
-Song.new(title, self, genre)
+  Song.new(title, self, genre)
 end
 
 def genres
-songs.collect {|song| song.genre}
+  songs.collect {|song| song.genre}
 end
 
 end #end of class
